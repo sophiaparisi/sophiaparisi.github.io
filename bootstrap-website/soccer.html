@@ -4,10 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+
+    <title>Soccer</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <style>
         .hotpink {
             color: hotpink;
@@ -40,137 +45,190 @@
 </head>
 
 <body class="h-100 w-100 d-flex flex-column">
+
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar">
-        <div class="container"> <a class="navbar-brand active" aria-current="page" href="index.html">Home</a> <button
-                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
-                    class="navbar-toggler-icon"></span> </button>
+        <div class="container">
+
+        
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar"
+                aria-controls="navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse navbar-collapse" id="navbar">
+
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Soccer</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="wallyball.html">Wallyball</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="pickleball.html">Pickleball</a> </li>
+
+                    <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="soccer.html">Soccer</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="wallyball.html">Wallyball</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pickleball.html">Pickleball</a>
+                    </li>
+
                 </ul>
-                </form>
+
             </div>
         </div>
     </nav>
+
+    <!-- MAIN -->
     <main class="container flex-grow-1">
-      <div class="pt-5 pb-5 flex flex-col">
-        <div class="text-center">
-        <h1>Our indoor soccer team, TOUSE</h1>
-        <p>Here's the team that I started with Sam and Kedin. Indoor soccer is 4v4 and we played in a co-ed division. The only available league was competitive rather than recreational, so we didn't win very often. However, we had a lot of fun losing!</p>
-        </div>
-        <div class="container text-center">
 
-            <div class="container py-5">
+        <div class="pt-5 pb-5 flex flex-col">
 
-    <!-- IMAGE ROW -->
-    <!-- TOP CENTER IMAGE -->
-<div class="row justify-content-center mb-5">
-
-    <div class="col-12 col-lg-6">
-        <div class="card shadow">
-
-            <img src="images/IMG_B3F3D99F3EAF-1.jpeg"
-                 class="card-img-top"
-                 alt="Photo">
-
-            <div class="card-body text-center">
-                <h5 class="card-title">Kedin's sweaty hair sticking up after a hard-fought game.</h5>
+            <div class="text-center">
+                <h1>Our indoor soccer team, TOUSE</h1>
+                <p>
+                    Here's the team that I started with Sam and Kedin. Indoor soccer is 4v4 and we played in a co-ed
+                    division. The only available league was competitive rather than recreational, so we didn't win
+                    very often. However, we had a lot of fun losing!
+                </p>
             </div>
 
-        </div>
-    </div>
+            <div class="container text-center">
 
-</div>
+                <div class="container py-5">
 
-    <!-- VIDEO ROW -->
-    <div class="row justify-content-center g-4 mb-5">
+                    <!-- TOP IMAGE -->
+                    <div class="row justify-content-center mb-5">
 
-        <div class="col-12 col-lg-5">
-            <div class="card shadow p-3">
+                        <div class="col-12 col-lg-6">
+                            <div class="card shadow">
 
-                <video controls class="w-100 rounded">
-                    <source src="videos/D40D6D15-B6F0-48E1-B2D5-BDA4023DDB98 2.mp4"
-                            type="video/mp4">
-                </video>
+                                <img src="images/IMG_B3F3D99F3EAF-1.jpeg"
+                                    class="card-img-top"
+                                    alt="Photo">
 
-                <div class="card-body text-center">
-                    <h5 class="card-title">How we celebrate a win!</h5>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">
+                                        Kedin's sweaty hair sticking up after a hard-fought game.
+                                    </h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- VIDEOS -->
+                    <div class="row justify-content-center g-4 mb-5">
+
+                        <div class="col-12 col-lg-5">
+                            <div class="card shadow p-3">
+
+                                <video controls class="w-100 rounded">
+                                    <source src="videos/D40D6D15-B6F0-48E1-B2D5-BDA4023DDB98 2.mp4"
+                                        type="video/mp4">
+                                </video>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">How we celebrate a win!</h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+                            <div class="card shadow p-3">
+
+                                <video controls class="w-100 rounded">
+                                    <source src="videos/6B9B3A13-E27A-4D22-A761-F33F8008A94F 5.mp4"
+                                        type="video/mp4">
+                                </video>
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">How we accept defeat.</h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h1>Our outdoor soccer team, SWB</h1>
+                    <p>
+                        SWB stands for Service without Borders, a club that I am not apart of. However, my kind teammates
+                        welcomed me with open arms. Unfortunately, I don't have any photos with my other soccer team,
+                        WAB. I was never really sure what that acronym meant...
+                    </p>
+
+                    <!-- BOTTOM IMAGE -->
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 col-lg-6">
+                            <div class="card shadow">
+
+                                <img src="images/IMG_A7BDC734418E-1.jpeg"
+                                    class="card-img-top"
+                                    alt="Bottom Photo">
+
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The SWB Squad</h5>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-
             </div>
+
         </div>
 
-        <div class="col-12 col-lg-5">
-            <div class="card shadow p-3">
-
-                <video controls class="w-100 rounded">
-                    <source src="videos/6B9B3A13-E27A-4D22-A761-F33F8008A94F 5.mp4"
-                            type="video/mp4">
-                </video>
-
-                <div class="card-body text-center">
-                    <h5 class="card-title">How we accept defeat.</h5>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
- <h1>Our outdoor soccer team, SWB</h1>
-        <p>SWB stands for Service without Borders, a club that I am not apart of. However, my kind teammates welcomed me with open arms. Unfortunately, I don't have any photos with my other soccer team, WAB. I was never really sure what that acronym meant...</p>
-    <!-- BOTTOM CENTER IMAGE -->
-    <div class="row justify-content-center">
-
-        <div class="col-12 col-lg-6">
-            <div class="card shadow">
-
-                <img src="images/IMG_A7BDC734418E-1.jpeg"
-                     class="card-img-top"
-                     alt="Bottom Photo">
-
-                <div class="card-body text-center">
-                    <h5 class="card-title">The SWB Squad</h5>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-</div>
     </main>
+
+    <!-- FOOTER -->
     <footer class="mt-auto border-top">
-  <div class="container d-flex justify-content-between align-items-center py-3">
+        <div class="container d-flex justify-content-between align-items-center py-3">
 
-    <span>© 2026 Sophia Parisi</span>
+            <span>© 2026 Sophia Parisi</span>
 
-    <ul class="nav list-unstyled d-flex mb-0">
-      <li class="ms-3">
-        <a class="text-body-secondary"
-           href="https://www.instagram.com/sophia.parisi/"
-           aria-label="Instagram">
-          <i class="bi bi-instagram"></i>
-        </a>
-      </li>
+            <ul class="nav list-unstyled d-flex mb-0">
 
-      <li class="ms-3">
-        <a class="text-body-secondary"
-           href="https://www.facebook.com/sophia.parisi.9/"
-           aria-label="Facebook">
-          <i class="bi bi-facebook"></i>
-        </a>
-      </li>
-    </ul>
+                <li class="ms-3">
+                    <a class="text-body-secondary"
+                        href="https://www.instagram.com/sophia.parisi/"
+                        aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
 
-  </div>
-</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+                <li class="ms-3">
+                    <a class="text-body-secondary"
+                        href="https://www.facebook.com/sophia.parisi.9/"
+                        aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-
 </html>
